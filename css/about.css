@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+.about-us-title-div {
+  max-width: 85%;
+  padding: 3rem 3rem 1rem 3rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.about-us-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.375rem;
+}
+
+.about-us {
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.about-us-img {
+  padding: 0 3rem 3rem 3rem;
+  width: 65%;
+  object-fit: contain;
+}
+
+.about-us-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+
+  .about-us-title-div {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .about-us-title {
+    font-size: 2.5rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-us {
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    width: 85%;
+  }
+
+  .about-us-img {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .about-us-description {
+    font-size: clamp(1rem, 3vw + 0.25rem, 1.25rem);
+  }
+}
+
+.shura {
+  max-width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 1rem 0 0 1rem;
+}
+
+.shura-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.125rem;
+  font-weight: 400;
+  padding-bottom: 2.5rem;
+}
+
+.shura-row {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.shura-member-img {
+  padding: 1.875rem;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.shura-member-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  padding-bottom: 0.625rem;
+}
+
+.shura-member-role {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: rgb(44, 90, 154);
+  font-weight: 400;
+  padding-bottom: 0.625rem;
+}
+
+.officers {
+  max-width: 85%;
+  margin: auto;
+  justify-content: center;
+  padding: 1rem 0 3rem 1rem;
+}
+
+.officers-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.125rem;
+  font-weight: 400;
+  padding-bottom: 2.5rem;
+}
+
+.officers-row {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.officer-member-img {
+  padding: 1.875rem;
+  border-radius: 50%;
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+}
+
+.officer-member-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  padding-bottom: 0.625rem;
+}
+
+.officer-member-role {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  color: rgb(44, 90, 154);
+  font-weight: 400;
+  padding-bottom: 0.625rem;
+}
