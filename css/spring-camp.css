@@ -1,2 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body {
+  background-color: #EAEED3;
+  background-image: url('../img/spring-camp-graphic.png');
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: right top -85px;
+}
+
+.spring-camp {
+  max-width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 15rem;
+}
+
+.spring-camp-heading {
+  font-family: "League Spartan", sans-serif;
+  color: #343434;
+  width: 750px;
+}
+
+.spring-camp-title-intro {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.spring-camp-title {
+  font-size: 6.5rem;
+  font-weight: 400;
+  line-height: 6.5rem;
+  padding-bottom: 3rem;
+}
+
+.spring-camp-subtitle-div {
+  align-items: center;
+  padding-bottom: 2.5rem;
+}
+
+.spring-camp-subtitle {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.spring-camp-subtitle-1 {
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 0 1rem;
+}
+
+.spring-camp-button {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  padding: 1.25rem 2.5rem;
+  font-size: 2rem;
+  border-radius: 0.75rem;
+  border: none;
+  background-color: #C7B9EB;
+  transition: 0.5s;
+}
+
+.spring-camp-button:hover {
+  background-color: #b9a7e6;
+}
+
+.spring-camp-date-div {
+  margin-top: 4rem;
+}
+
+.spring-camp-date-square {
+  background-color: #A9B796;
+  width: 30px;
+  height: 30px;
+}
+
+.spring-camp-date {
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 3px;
+  padding-left: 3rem;
+}
