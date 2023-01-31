@@ -8,11 +8,12 @@ body {
   background-image: url('../img/spring-camp-graphic.png');
   background-repeat: no-repeat;
   background-size: 45%;
-  background-position: right top -85px;
+  background-position: right -90px top -110px;
 }
 
 .spring-camp {
   max-width: 85%;
+  height: 100vh;
   margin: 0 auto;
   justify-content: center;
   padding-top: 15rem;
@@ -27,30 +28,30 @@ body {
 .spring-camp-title-intro {
   font-size: 1.5rem;
   font-weight: 300;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 
 .spring-camp-title {
-  font-size: 6.5rem;
+  font-size: 6.25rem;
   font-weight: 400;
   line-height: 6.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .spring-camp-subtitle-div {
   align-items: center;
-  padding-bottom: 2.5rem;
-}
+  margin-bottom: 2rem;
+} 
 
 .spring-camp-subtitle {
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   font-weight: 300;
 }
 
 .spring-camp-subtitle-1 {
   font-size: 2rem;
   font-weight: 200;
-  padding: 0 1rem;
+  padding: 0 1rem 0.5rem 1rem;
 }
 
 .spring-camp-button {
@@ -62,6 +63,15 @@ body {
   border: none;
   background-color: #C7B9EB;
   transition: 0.5s;
+  color: #343434;
+}
+
+.spring-camp-button:active {
+  transform: scale(0.96);
+}
+
+.spring-camp-button a {
+  color: #343434;
 }
 
 .spring-camp-button:hover {
@@ -69,7 +79,7 @@ body {
 }
 
 .spring-camp-date-div {
-  margin-top: 4rem;
+  padding-top: 3rem;
 }
 
 .spring-camp-date-square {
@@ -83,4 +93,18 @@ body {
   font-weight: 200;
   padding-top: 3px;
   padding-left: 3rem;
+}
+
+.speaker-div {
+  flex-wrap: wrap;
+}
+
+.speaker-box {
+  border: 1px solid red;
+  max-width: 10rem;
+}
+
+.speaker-img {
+  width: 10rem;
+  object-fit: fill;
 }
