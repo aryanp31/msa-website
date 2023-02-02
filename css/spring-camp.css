@@ -20,6 +20,12 @@ body {
   filter: grayscale(90%);
 }
 
+@media (max-width: 1050px) {
+  .primary-navigation {
+    background: #A9B796;
+  }
+}
+
 .primary-navigation a {
   color: #343434;
 }
