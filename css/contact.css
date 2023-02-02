@@ -8,7 +8,7 @@
 }
 
 .contact-title-div {
-  padding: 3rem 0 2rem 0;
+  padding: 5rem 0 2rem 0;
 }
 
 .contact-title {
@@ -49,6 +49,7 @@
 .contact-social-div {
   margin: 0 auto;
   justify-content: center;
+  margin-bottom: 25rem;
 }
 
 .contact-social {
@@ -60,10 +61,12 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   border-radius: 50%;
   transition: transform 300ms ease-in-out;
+  opacity: 0.85;
 }
   
 .contact-social:hover {
   transform: scale(1.05);
+  opacity: 1;
 }
   
 .contact-social a > img {

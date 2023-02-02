@@ -135,13 +135,14 @@
   transition: 0.25s ease-in-out;
 }
 
-.brothers-roommate-matching:hover {
+.brothers-roommate-matching:hover, .sisters-roommate-matching:hover {
   background-color: rgb(34, 80, 143);
 }
 
-.sisters-roommate-matching:hover {
-  background-color: rgb(34, 80, 143);
+.brothers-roommate-matching:active, .sisters-roommate-matching:active {
+  transform: scale(0.96);
 }
+
 
 @media (max-width: 960px) {
 
@@ -193,6 +194,10 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 0.85fr));
   grid-gap: 40px;
   padding: 20px;
+}
+
+.food-cards:last-of-type {
+  padding-bottom: 7rem;
 }
 
 .food-card {

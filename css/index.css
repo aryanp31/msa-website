@@ -87,14 +87,14 @@
 }
 
 .upcoming-events-left {
-  padding: 3rem 1rem;
+  padding: 6rem 1rem 0 1rem;
 }
 
 .upcoming-title {
   font-size: clamp(2rem, 1vw + 0.25rem, 4rem);
   font-weight: 400;
   text-align: left;
-  width: 250px;
+  max-width: 250px;
   padding-bottom: 2rem;
 }
 
@@ -140,7 +140,9 @@
 }
 
 .upcoming-event-img {
-  max-width: 100%;
+  object-fit: cover;
+  max-width: 315px;
+  max-height: 300px;
 }
 
 .upcoming-event-name {
@@ -155,7 +157,7 @@
   padding-left: 0.15rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   .upcoming-events {
     flex-direction: column;
     padding: 2rem;

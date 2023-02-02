@@ -5,10 +5,27 @@
 
 body {
   background-color: #EAEED3;
-  background-image: url('../img/spring-camp-graphic.png');
+  background-image: url('../img/graphics/spring-camp-graphic.png');
   background-repeat: no-repeat;
   background-size: 45%;
-  background-position: right -90px top -110px;
+  background-position: right -90px top 110px;
+}
+
+.primary-header {
+  background-color: #EAEED3;
+  border-bottom: 2px solid #343434;
+}
+
+.logo {
+  filter: grayscale(90%);
+}
+
+.primary-navigation a {
+  color: #343434;
+}
+
+.active, .social-list {
+  color: #343434;
 }
 
 .spring-camp {
@@ -16,7 +33,7 @@ body {
   height: 100vh;
   margin: 0 auto;
   justify-content: center;
-  padding-top: 15rem;
+  padding-top: 10rem;
 }
 
 .spring-camp-heading {
@@ -62,7 +79,7 @@ body {
   border-radius: 0.75rem;
   border: none;
   background-color: #C7B9EB;
-  transition: 0.5s;
+  transition: 0.3s;
   color: #343434;
 }
 
@@ -95,16 +112,45 @@ body {
   padding-left: 3rem;
 }
 
-.speaker-div {
+.speakers {
+  max-width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  padding-bottom: 10rem;
+}
+
+.speakers-title {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 200;
+  padding: 3rem 3rem 3rem;
+}
+
+.speakers-div {
+  margin: 0 auto;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .speaker-box {
-  border: 1px solid red;
-  max-width: 10rem;
+  margin: 0 2rem;
 }
 
 .speaker-img {
-  width: 10rem;
-  object-fit: fill;
+  width: 250px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  transition: transform 300ms ease-in-out;
+}
+
+.speaker-img:hover {
+  transform: scale(1.03);
+}
+
+.speaker-name {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  padding: 2rem 0;
 }
