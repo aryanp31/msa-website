@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -53,6 +54,10 @@ a[href^="tel"]{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.ff-spartan {
+  font-family: "League Spartan", sans-serif;
+}
+
 .color-primary {
   color:rgba(29, 67, 121, 1);
 }
@@ -77,7 +82,8 @@ a[href^="tel"]{
 }
 
 .primary-navigation {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 200;
   list-style: none;
   margin-left: 5rem;
   padding: 0;
@@ -264,8 +270,8 @@ a[href^="tel"]{
 .footer-col a {
   color: #fff;
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 200;
   line-height: 1.5;
 	display: block;
 	transition: all 0.3s ease;
@@ -290,7 +296,7 @@ a[href^="tel"]{
 
 .footer-title a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.5;
 	color: #fff;
 	text-transform: capitalize;
@@ -304,18 +310,18 @@ a[href^="tel"]{
 
 .form-title {
   color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
   padding: 10px 0 0 0;
 }
 
 .form-subtitle {
   color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-size: 14px;
   line-height: 32px;
-  font-weight: 300;
+  font-weight: 200;
   padding: 0 0 5px 0;
 }
 
@@ -373,7 +379,7 @@ a[href^="tel"]{
 
 .footer-tribute-text {
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-size: 11px;
 }
 

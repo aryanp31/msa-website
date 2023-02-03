@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap');
 
 body {
@@ -35,7 +33,7 @@ body {
   color: #343434;
 }
 
-.active, .social-list {
+.active, .social-list a {
   color: #343434;
 }
 
@@ -44,11 +42,10 @@ body {
   height: 100vh;
   margin: 0 auto;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 7.5rem;
 }
 
 .spring-camp-heading {
-  font-family: "League Spartan", sans-serif;
   color: #343434;
   max-width: 750px;
 }
@@ -83,27 +80,46 @@ body {
 }
 
 .spring-camp-button {
-  font-family: "League Spartan", sans-serif;
-  font-weight: 400;
-  padding: 1.25rem 2.5rem;
   font-size: 2rem;
-  border-radius: 0.75rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  padding: 1.25rem 2.5rem 1.15rem 2.5rem;
   border: none;
+  border-radius: 0.75rem;
   background-color: #C7B9EB;
   transition: 0.3s;
   color: #343434;
 }
 
-.spring-camp-button:active {
+.tourney-button {
+  font-size: 1.21rem;
+  font-weight: 400;
+  padding: 1.25rem 1.15rem;
+  border-radius: 0.75rem;
+  border: none;
+  background-color: #D0D7BD;
+  transition: 0.3s;
+  color: #343434;
+}
+
+.brothers {
+  margin-right: 0.75rem;
+}
+
+.spring-camp-button:active, .tourney-button:active {
   transform: scale(0.96);
 }
 
-.spring-camp-button a {
+.spring-camp-button a, .tourney-button {
   color: #343434;
 }
 
 .spring-camp-button:hover {
   background-color: #b9a7e6;
+}
+
+.tourney-button:hover {
+  background-color: #A9B796;
 }
 
 .spring-camp-date-div {
@@ -150,7 +166,7 @@ body {
     height: 75vh;
     margin: 0 auto;
     justify-content: center;
-    padding-top: 7rem;
+    padding-top: 5rem;
   }
 
   .spring-camp-title-intro {
@@ -172,9 +188,10 @@ body {
     font-size: 1.7rem;
   }
 
-  .spring-camp-button {
+  .spring-camp-button, .tourney-button {
     font-size: 1.25rem;
     padding: 0.75rem 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .spring-camp-date-div {
@@ -200,7 +217,6 @@ body {
 }
 
 .speakers-title {
-  font-family: "League Spartan", sans-serif;
   font-size: 1.75rem;
   font-weight: 300;
   padding: 3rem 0 0 3rem;
@@ -215,6 +231,7 @@ body {
 
 .speaker-box {
   margin: 0 2rem;
+  padding: 2rem 0;
 }
 
 .speaker-img {
@@ -237,11 +254,16 @@ body {
 }
 
 .speaker-name {
-  font-family: "League Spartan", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 2rem 0 1rem 0;
+}
+
+.speaker-title {
   font-size: 1.5rem;
   font-weight: 100;
-  text-align: center;
-  padding: 2rem 0;
+  line-height: 1.75rem;
+  max-width: 250px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -274,6 +296,10 @@ body {
     font-size: 1.25rem;
     text-align: center;
   }
+
+  .speaker-title {
+    display: none;
+  }
 }
 
 .itinerary {
@@ -287,7 +313,6 @@ body {
 }
 
 .itinerary-title {
-  font-family: "League Spartan", sans-serif;
   font-size: 1.75rem;
   font-weight: 300;
   padding: 3rem 0 0 3rem;
@@ -318,25 +343,24 @@ body {
   padding: 3rem 0 1rem 1rem;
 }
 
-
-
-/*  ================================================================= */
-
 .timeline {
-  align-items: flex-start;
   list-style: none;
-  margin-right: 3rem;
+  margin: 2.5rem 0;
 }
 
 .timeline-item {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   margin-bottom: 2rem;
   position: relative;
   padding: 0 1rem;
-  max-width: 40%;
-  /* border: 1px solid red; */
+}
+
+.short {
+  width: 12rem;
+}
+
+.long {
+  width: 25rem;
 }
 
 .timeline-item:first-of-type {
@@ -362,20 +386,21 @@ body {
   width: 100%;
   background-color: #C7B9EB;
   position: absolute;
-  left: 15px;
+  left: 5px;
   top: 15%;
 }
 
 .timeline-content {
   font-family: "League Spartan", sans-serif;
-  width: 100%;
+  width: 80%;
   position: relative;
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
+  right: 0.6rem;
 }
 
 .timeline-time {
   font-weight: 400;
-  padding: 0.75rem 0;
+  padding: 1.5rem 0 0.75rem 0;
 }
 
 .timeline-event {
@@ -402,41 +427,4 @@ body {
   .itinerary-days {
     display: none;
   }
-
-  /* .itinerary-day {
-    background-color: #EAEED3;
-  }
-
-  .timeline {
-    flex-direction: column;
-  }
-
-  .timeline-item {
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .timeline-item:first-of-type {
-    margin-left: 0;
-  }
-
-  .timeline-item::before {
-    left: 30px;
-    top: 0;
-  }
-
-  .timeline-item:first-of-type::after {
-    content: "";
-    height: 100%;
-    width: 2px;
-    position: absolute;
-    left: 30px;
-    top: 0;
-    bottom: 0;
-  }
-
-  .timeline-content {
-    width: calc(100% - 60px);
-  } */
 }
