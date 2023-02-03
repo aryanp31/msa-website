@@ -383,6 +383,10 @@ a[href^="tel"]{
   font-size: 11px;
 }
 
+.footer-tribute-text a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 @media(max-width: 1166px){
   .footer-test {
     width: 100%;
