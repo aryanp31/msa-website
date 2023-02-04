@@ -48,6 +48,11 @@
   .deskContent {
     display:none;
   }
+
+  .get-involved-calendar {
+    padding-bottom: 100%;
+  }
+
   .phoneContent {
     display:block;
   }
