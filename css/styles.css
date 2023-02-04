@@ -147,6 +147,14 @@ a[href^="tel"]{
 
 @media (max-width: 1050px) {
 
+  .primary-header {
+    height: 5rem;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+
   .primary-navigation {
     position: fixed;
     inset: 0 0 0 20%;
@@ -184,7 +192,7 @@ a[href^="tel"]{
     width: 2rem;
     border: 0;
     aspect-ratio: 1;
-    top: 2.75rem;
+    top: 1.75rem;
     right: 2rem;
   }
 
@@ -255,6 +263,10 @@ a[href^="tel"]{
 
 .footer-logo {
   padding: 15px 0;
+}
+
+.footer-logo img {
+  max-width: 85px;
 }
 
 .footer-row {

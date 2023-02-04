@@ -109,6 +109,7 @@
 .roommate-matching-text {
   font-size: clamp(1rem, 2vw + 0.25rem, 1.5rem);
   font-weight: 300;
+  line-height: 1.5rem;
   padding: 0 1rem 1rem 0;
 }
 

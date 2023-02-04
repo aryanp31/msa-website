@@ -15,7 +15,32 @@
   text-align: center;
 }
 
-.get-involved-calendar {
-  padding: 0 0 5rem 0;
-  text-align: center;
+.get-involved-calendar-div {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
+
+.get-involved-calendar {
+  margin: 0 auto;
+  justify-content: center;
+  width: 95%;
+  position: relative;
+  padding-bottom: 65%;
+  overflow: hidden;
+}
+
+.get-involved-calendar iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+  
+  @media all and (min-width: 769px) {
+      .deskContent {display:block;}
+      .phoneContent {display:none;}
+  }
+  
+  @media all and (max-width: 768px) {
+      .deskContent {display:none;}
+      .phoneContent {display:block;}
+  }
